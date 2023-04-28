@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Navibar() {
+export default function NewProduct() {
     return (
         <div>
-            <h1>Navibar</h1>
+            <h1>NewProduct</h1>
         </div>
     );
 }
