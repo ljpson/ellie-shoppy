@@ -5,8 +5,8 @@ import { AuthContextProvider } from './context/AuthContext';
 function App() {
   return (
     <AuthContextProvider>
-    <Navbar />
-    <Outlet />
+      <Navbar />
+      <Outlet />
     </AuthContextProvider>
   );
 }
