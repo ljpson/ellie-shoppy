@@ -24,12 +24,12 @@ export default function CartItem({
         <li className='flex justify-between my-2 items-center'>
             <img className='w-24 md:w-48 rounded-lg' src={image} alt={title} />
             <div className='flex-1 flex justify-between ml-4'>
-                <div className='basis-3/5'>
-                    <p className='text-lg'>{title}</p>
-                    <p className='text-xl font-bold text-brand'>{option}</p>
+                <div className='basis-3/4 text-base md:text-xl'>
+                    <p className='font-bold'>{title}</p>
+                    <p className='font-bold text-brand'>{option}</p>
                     <p>{price}원</p>
                 </div>
-                <div className='text-2xl flex items-center basis-1/5'>
+                <div className='flex items-center basis-1/4'>
                     <AiOutlineMinusSquare className={ICON_CLASS} onClick={handleMinus}/>
                     <span>{quantity}</span>
                     <AiOutlinePlusSquare className={ICON_CLASS} onClick={handlePlus} />
