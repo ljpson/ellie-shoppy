@@ -22,8 +22,8 @@ export default function CartItem({
 
     return (
         <li className='flex justify-between my-2 items-center'>
-            <img className='w-24 md:w-48 rounded-lg px-2' src={image} alt={title} />
-            <div className='flex-1 flex justify-between'>
+            <img className='w-24 md:w-48 rounded-lg' src={image} alt={title} />
+            <div className='flex-1 flex justify-between ml-4'>
                 <div className='basis-3/5'>
                     <p className='text-lg'>{title}</p>
                     <p className='text-xl font-bold text-brand'>{option}</p>
