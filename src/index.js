@@ -24,7 +24,7 @@ const router = createBrowserRouter([
           <ProtectedRoute requireAdmin>
               <NewProduct />
           </ProtectedRoute>},
-      { path: '/products/:id', element: <ProductDetail />},
+      { path: '/productDetail/:id', element: <ProductDetail />},
       { path: '/carts', 
         element: 
           <ProtectedRoute>
